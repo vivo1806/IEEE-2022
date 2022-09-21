@@ -48,6 +48,7 @@ Version: 1.0.0
 42. Right To Left Style
 **********************************************/
 
+
 /*** 
 
 ====================================================================
@@ -57,6 +58,7 @@ Version: 1.0.0
 ***/
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800;900&family=Exo:wght@300;400;500;600;700;800;900&display=swap");
+
 /*
 font-family: 'Archivo', sans-serif;
 font-family: 'Exo', sans-serif;
@@ -69,6 +71,7 @@ font-family: 'Exo', sans-serif;
 @import url("jquery-ui.min.css");
 @import url("jquery.fancybox.min.css");
 @import url("jquery.bootstrap-touchspin.css");
+
 /*** 
 
 ====================================================================
@@ -84,6 +87,7 @@ font-family: 'Exo', sans-serif;
     outline: none;
     font-size: 100%;
 }
+
 
 /*** 
 
@@ -234,6 +238,7 @@ li {
     margin: 0px;
 }
 
+
 /***
 =======================
    Default Navs
@@ -279,11 +284,13 @@ li {
     color: #ffffff;
 }
 
+
 /***
 =======================
    List Styles
 =======================
 ***/
+
 
 /* List Style Two */
 
@@ -310,6 +317,7 @@ li {
     font-weight: 900;
     font-size: 16px;
 }
+
 
 /* List Style Two */
 
@@ -343,6 +351,7 @@ li {
 .list-style-two.light li {
     font-weight: 300;
 }
+
 
 /*** 
 ==========================
@@ -390,6 +399,7 @@ li {
     color: #ffffff;
 }
 
+
 /*** 
 ==========================
   Social Icon Two
@@ -430,6 +440,7 @@ li {
     background-color: #ffae00;
     color: #ffffff;
 }
+
 
 /*** 
 ==========================
@@ -475,6 +486,7 @@ li {
     background-color: #ffae00;
     color: #ffffff;
 }
+
 
 /*==========================
   Default Tabs
@@ -526,6 +538,7 @@ li {
     line-height: 26px;
     font-weight: 300;
 }
+
 
 /*==========================
 default table
@@ -590,6 +603,7 @@ default table
     margin-bottom: 20px;
 }
 
+
 /*======================
 Theme Btn
 =======================*/
@@ -616,6 +630,7 @@ Theme Btn
     z-index: 9;
     color: inherit;
 }
+
 
 /*Btn Style One*/
 
@@ -661,6 +676,7 @@ Theme Btn
 .btn-style-one:hover:before {
     top: 150%;
 }
+
 
 /*Btn Style Two*/
 
@@ -718,6 +734,7 @@ Theme Btn
     border-radius: 5px;
     min-width: 100px;
 }
+
 
 /*==========================
 Owl Carousel Arrows
@@ -847,6 +864,7 @@ Owl Carousel Arrows
     float: left;
 }
 
+
 /*==========================
   Preloader
   ===========================*/
@@ -910,6 +928,7 @@ hr {
 .tabs-box .active-tab {
     display: block;
 }
+
 
 /*=== Default Form ===*/
 
@@ -993,6 +1012,7 @@ hr {
     font-size: 14px;
     line-height: 54px;
 }
+
 
 /*** 
 
@@ -1109,6 +1129,7 @@ hr {
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
+
 
 /*** 
 
@@ -1306,6 +1327,7 @@ hr {
     }
 }
 
+
 /*** 
 
 ====================================================================
@@ -1332,6 +1354,7 @@ hr {
     background-color: #00082e;
     content: "";
 }
+
 
 /* Header Top */
 
@@ -1437,6 +1460,7 @@ hr {
     transform: rotate(180deg);
 }
 
+
 /* Header Lower */
 
 .main-header .header-lower {
@@ -1497,7 +1521,7 @@ hr {
     min-width: 240px;
     min-height: 110px;
     background-color: #ffffff;
-    border-radius: 10px 10px 0 40px;
+    /* border-radius: 10px 10px 0 40px; */
     margin-top: -30px;
     margin-right: 70px;
 }
@@ -1819,6 +1843,7 @@ hr {
     align-items: center;
 }
 
+
 /* Search btn */
 
 .main-header .search-box-btn {
@@ -1842,6 +1867,7 @@ hr {
     white-space: nowrap;
     display: block;
 }
+
 
 /* Cart btn */
 
@@ -1867,6 +1893,7 @@ hr {
     background-color: #1370b5;
     border-radius: 50%;
 }
+
 
 /************************ Mega Menu ***************************/
 
@@ -2000,6 +2027,7 @@ hr {
     -moz-animation: fill 1s forwards;
     opacity: 1;
 }
+
 
 /*** 
 
@@ -2189,6 +2217,7 @@ hr {
     color: #aaaaaa;
 }
 
+
 /*** 
 
 ====================================================================
@@ -2252,6 +2281,7 @@ hr {
 .header-style-three .sticky-header .social-icon-four {
     display: none;
 }
+
 
 /***
 
@@ -2369,6 +2399,7 @@ hr {
     margin-bottom: 25px;
 }
 
+
 /*=== Form Style One ===*/
 
 .form-style-one {
@@ -2451,6 +2482,7 @@ hr {
     line-height: 20px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -2521,6 +2553,7 @@ hr {
 .mobile-header .cart-btn {
     margin-left: 10px;
 }
+
 
 /*** 
 
@@ -2834,6 +2867,7 @@ hr {
     display: none;
 }
 
+
 /*** 
 
 ====================================================================
@@ -2922,8 +2956,8 @@ hr {
     min-width: 200px;
     margin-top: -34px;
     border-radius: 0;
-    -webkit-box-shadow: 0 0 27px rgba(0, 0, 0, .20);
-    box-shadow: 0 0 27px rgba(0, 0, 0, .20);
+    /* -webkit-box-shadow: 0 0 27px rgba(0, 0, 0, .20);
+    box-shadow: 0 0 27px rgba(0, 0, 0, .20); */
 }
 
 .header-style-two .logo img {
@@ -2933,6 +2967,7 @@ hr {
 .header-style-two .nav-toggler {
     margin-left: 30px;
 }
+
 
 /*** 
 
@@ -3063,6 +3098,7 @@ hr {
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
+
 
 /* Header Lower */
 
@@ -3248,6 +3284,7 @@ hr {
     top: 0;
 }
 
+
 /*** 
 
 ====================================================================
@@ -3348,6 +3385,7 @@ Page Title
     color: #ffba00;
 }
 
+
 /*** 
 
 ====================================================================
@@ -3437,6 +3475,7 @@ Page Title
     font-weight: 700;
     color: #001376;
 }
+
 
 /*** 
 
@@ -3542,6 +3581,7 @@ Page Title
     min-width: 180px !important;
 }
 
+
 /*** 
 
 ====================================================================
@@ -3614,6 +3654,7 @@ Page Title
     margin-bottom: 40px;
 }
 
+
 /* Animate 1 */
 
 .owl-carousel .animate-7,
@@ -3645,6 +3686,7 @@ Page Title
     transform: translateY(0);
 }
 
+
 /* Animate 2 */
 
 .owl-carousel .active .animate-2 {
@@ -3652,6 +3694,7 @@ Page Title
     -o-transition-delay: 300ms;
     transition-delay: 300ms;
 }
+
 
 /* Animate 3 */
 
@@ -3661,6 +3704,7 @@ Page Title
     transition-delay: 600ms;
 }
 
+
 /* Animate 4 */
 
 .owl-carousel .active .animate-4 {
@@ -3668,6 +3712,7 @@ Page Title
     -o-transition-delay: 900ms;
     transition-delay: 900ms;
 }
+
 
 /* Animate 5 */
 
@@ -3677,6 +3722,7 @@ Page Title
     transition-delay: 1200ms;
 }
 
+
 /* Animate 6 */
 
 .owl-carousel .active .animate-6 {
@@ -3684,6 +3730,7 @@ Page Title
     -o-transition-delay: 1500ms;
     transition-delay: 1500ms;
 }
+
 
 /* Animate 7 */
 
@@ -3728,6 +3775,7 @@ Page Title
     background-color: rgba(255, 255, 255, .90);
     color: #222222;
 }
+
 
 /*=====================
   Time Counter Two
@@ -3920,6 +3968,7 @@ a.ui-button:active,
     padding: 4px 10px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -3999,6 +4048,7 @@ a.ui-button:active,
     margin-right: 5px;
     top: 5px;
 }
+
 
 /*** 
 
@@ -4170,6 +4220,7 @@ a.ui-button:active,
     color: #ffffff;
 }
 
+
 /*** 
 
 ====================================================================
@@ -4245,6 +4296,7 @@ a.ui-button:active,
     font-family: 'Exo', sans-serif;
     font-weight: 700;
 }
+
 
 /***
 
@@ -4409,6 +4461,7 @@ a.ui-button:active,
     }
 }
 
+
 /***
 
 ==================================================================
@@ -4536,6 +4589,7 @@ a.ui-button:active,
 .about-section-two .fact-counter-two {
     margin-left: 100px;
 }
+
 
 /* Fact Counter Two  */
 
@@ -4702,6 +4756,7 @@ a.ui-button:active,
     margin-bottom: 30px;
 }
 
+
 /***
 
 ==================================================================
@@ -4852,6 +4907,7 @@ a.ui-button:active,
     margin-bottom: 20px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -4964,6 +5020,7 @@ a.ui-button:active,
     font-weight: 700;
     color: #ff4200;
 }
+
 
 /*** 
 
@@ -5179,6 +5236,7 @@ a.ui-button:active,
     opacity: .10;
 }
 
+
 /***
 
 ==================================================================
@@ -5320,6 +5378,7 @@ a.ui-button:active,
     color: #ffffff;
 }
 
+
 /***
 
 ====================================================================
@@ -5447,6 +5506,7 @@ a.ui-button:active,
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
+
 
 /***
 
@@ -5641,6 +5701,7 @@ a.ui-button:active,
     font-size: 14px;
     color: #555555;
 }
+
 
 /***
 
@@ -5866,6 +5927,7 @@ a.ui-button:active,
     color: #ffffff;
 }
 
+
 /***
 
 ====================================================================
@@ -6064,6 +6126,7 @@ a.ui-button:active,
     position: relative;
 }
 
+
 /* Animate 1 */
 
 .speaker-block-three h4,
@@ -6091,6 +6154,7 @@ a.ui-button:active,
     transform: translateY(0);
 }
 
+
 /* Animate 2 */
 
 .speaker-block-three .image-box:hover h4 {
@@ -6098,6 +6162,7 @@ a.ui-button:active,
     -o-transition-delay: 200ms;
     transition-delay: 200ms;
 }
+
 
 /* Animate 3 */
 
@@ -6107,6 +6172,7 @@ a.ui-button:active,
     transition-delay: 400ms;
 }
 
+
 /* Animate 4 */
 
 .speaker-block-three .image-box:hover .social-links {
@@ -6115,6 +6181,7 @@ a.ui-button:active,
     transition-delay: 600ms;
 }
 
+
 /* Animate 5 */
 
 .speaker-block-three .image-box:hover .text {
@@ -6122,6 +6189,7 @@ a.ui-button:active,
     -o-transition-delay: 800ms;
     transition-delay: 800ms;
 }
+
 
 /***
 
@@ -6285,6 +6353,7 @@ a.ui-button:active,
     height: 100%;
 }
 
+
 /*** 
 
 ====================================================================
@@ -6430,6 +6499,7 @@ a.ui-button:active,
 .schedule-timeline {
     position: relative;
 }
+
 
 /*=== Schedule Block ===*/
 
@@ -6731,6 +6801,7 @@ a.ui-button:active,
     border-color: #cdd00e;
 }
 
+
 /*** 
 
 ====================================================================
@@ -6767,6 +6838,7 @@ a.ui-button:active,
     max-width: 470px;
     padding-right: 30px;
 }
+
 
 /*=== Schedule Block ===*/
 
@@ -6900,6 +6972,7 @@ a.ui-button:active,
     white-space: nowrap;
 }
 
+
 /*** 
 
 ====================================================================
@@ -6953,6 +7026,7 @@ a.ui-button:active,
 .schedule-timeline {
     position: relative;
 }
+
 
 /*=== Schedule Block ===*/
 
@@ -7136,6 +7210,7 @@ a.ui-button:active,
     font-weight: 700;
 }
 
+
 /*=== Schedule Block Even ===*/
 
 .schedule-block-three.even .date {
@@ -7189,6 +7264,7 @@ a.ui-button:active,
 .schedule-block-three:nth-child(4n+4) .date {
     background-image: url(../images/icons/schedule-4.png);
 }
+
 
 /*** 
 
@@ -7356,6 +7432,7 @@ a.ui-button:active,
     margin-top: 20px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -7389,6 +7466,7 @@ a.ui-button:active,
     -webkit-animation: bounce-x 10s infinite;
     animation: bounce-x 10s infinite;
 }
+
 
 /*==========================
 Accordian Box
@@ -7491,6 +7569,7 @@ Accordian Box
     margin-bottom: 0;
 }
 
+
 /*** 
 
 ====================================================================
@@ -7551,6 +7630,7 @@ Accordian Box
     padding: 15px 30px;
     line-height: 20px;
 }
+
 
 /*** 
 
@@ -7628,6 +7708,7 @@ Accordian Box
     font-size: 16px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -7700,6 +7781,7 @@ Accordian Box
     position: relative;
     font-size: 16px;
 }
+
 
 /***
 
@@ -7899,6 +7981,7 @@ Accordian Box
 .pricing-block .inner-box:hover:after {
     opacity: 0;
 }
+
 
 /***
 
@@ -8162,6 +8245,7 @@ Accordian Box
     opacity: 0;
 }
 
+
 /***
 
 ====================================================================
@@ -8338,6 +8422,7 @@ Accordian Box
     background-position: center;
 }
 
+
 /*** 
 
 ====================================================================
@@ -8464,6 +8549,7 @@ Accordian Box
 .testimonial-carousel-two .owl-nav {
     display: none;
 }
+
 
 /*** 
 
@@ -8668,6 +8754,7 @@ Accordian Box
     color: #ff4200;
 }
 
+
 /* Style Two */
 
 .news-block.style-two {
@@ -8688,6 +8775,7 @@ Accordian Box
     padding: 0;
     padding-top: 30px;
 }
+
 
 /* Style Three */
 
@@ -8718,6 +8806,7 @@ Accordian Box
     padding: 0;
     padding-left: 30px;
 }
+
 
 /* Style Four */
 
@@ -8774,6 +8863,7 @@ Accordian Box
     bottom: -20px;
     top: auto;
 }
+
 
 /*** 
 
@@ -8836,6 +8926,7 @@ Accordian Box
     font-style: normal;
     margin-top: 10px;
 }
+
 
 /*post share options*/
 
@@ -8933,6 +9024,7 @@ Accordian Box
     color: #ffffff;
     background-color: #ff4200;
 }
+
 
 /*Author Box*/
 
@@ -9040,6 +9132,7 @@ Accordian Box
     color: #ff4200;
 }
 
+
 /*** 
 
 ====================================================================
@@ -9075,6 +9168,7 @@ Accordian Box
     margin-bottom: 0;
 }
 
+
 /* Sidebar Title */
 
 .sidebar-title {
@@ -9097,6 +9191,7 @@ Accordian Box
     background-color: #ffba00;
     content: "";
 }
+
 
 /*Search Box Widget*/
 
@@ -9153,6 +9248,7 @@ Accordian Box
 .sidebar .search-box .form-group button:hover {
     color: #e1137b;
 }
+
 
 /* Blog Categories */
 
@@ -9213,6 +9309,7 @@ Accordian Box
 .blog-categories li a:hover {
     color: #ff841a;
 }
+
 
 /*Post Widget*/
 
@@ -9285,6 +9382,7 @@ Accordian Box
     color: #555555;
 }
 
+
 /*Post Widget*/
 
 .sidebar .popular-posts .post {
@@ -9348,6 +9446,7 @@ Accordian Box
     margin-right: 10px;
 }
 
+
 /*Popular Tags*/
 
 .sidebar .popular-tags .widget-content {
@@ -9378,6 +9477,7 @@ Accordian Box
     border-color: #081245;
     color: #ffffff;
 }
+
 
 /*** 
 
@@ -9503,6 +9603,7 @@ Accordian Box
     margin-left: 10px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -9563,6 +9664,7 @@ Accordian Box
     font-weight: 500;
     cursor: pointer;
 }
+
 
 /*** 
 
@@ -9632,6 +9734,7 @@ Accordian Box
     right: -200px;
     top: 200px;
 }
+
 
 /*** 
 
@@ -9797,6 +9900,7 @@ Accordian Box
     margin-bottom: 30px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -9885,6 +9989,7 @@ Accordian Box
     background: #ffae00;
     border-color: #ffae00;
 }
+
 
 /*** 
 
@@ -9982,6 +10087,7 @@ Accordian Box
     padding-top: 7px;
     margin-bottom: 0;
 }
+
 
 /*** 
 
@@ -10106,6 +10212,7 @@ Accordian Box
     background-color: #f9f9f9;
 }
 
+
 /*** 
 
 ====================================================================
@@ -10173,6 +10280,7 @@ Accordian Box
 .client-block .image-box:hover img {
     opacity: .70;
 }
+
 
 /*** 
 
@@ -10261,6 +10369,7 @@ Accordian Box
     margin-top: -15px;
 }
 
+
 /*** 
 
 ====================================================================
@@ -10346,6 +10455,7 @@ Accordian Box
     cursor: pointer;
 }
 
+
 /*** 
 
 ====================================================================
@@ -10421,6 +10531,7 @@ Accordian Box
     border-radius: 0;
     cursor: pointer;
 }
+
 
 /***
 
@@ -10552,6 +10663,7 @@ Accordian Box
     line-height: 30px;
     margin-bottom: 40px;
 }
+
 
 /*=== User LInks ===*/
 
@@ -10737,6 +10849,7 @@ Accordian Box
     transform: scale(1);
 }
 
+
 /*=== Footer Bottom ===*/
 
 .main-footer .footer-bottom {
@@ -10847,6 +10960,7 @@ Accordian Box
     color: #002121;
 }
 
+
 /***
 
 ==================================================================
@@ -10897,6 +11011,7 @@ Accordian Box
     color: #ffc400;
     font-weight: 400;
 }
+
 
 /***
 
@@ -10973,6 +11088,7 @@ Accordian Box
     color: #ffc400;
     font-weight: 400;
 }
+
 
 /*** 
 
@@ -11411,6 +11527,7 @@ Accordian Box
     justify-content: center;
 }
 
+
 /*** 
 
 ====================================================================
@@ -11418,6 +11535,7 @@ Accordian Box
 ====================================================================
 
 ***/
+
 
 /* Item Sorting */
 
@@ -11469,7 +11587,9 @@ Accordian Box
     text-indent: 15px;
 }
 
+
 /*Shop Item*/
+
 
 /****** Shop Style *********/
 
@@ -11721,6 +11841,7 @@ Accordian Box
     background-color: #ffffff;
 }
 
+
 /*** 
 
 ====================================================================
@@ -11938,6 +12059,7 @@ Accordian Box
     text-transform: uppercase;
 }
 
+
 /*** 
 
 ====================================================================
@@ -12147,6 +12269,7 @@ Accordian Box
     margin-bottom: 15px;
 }
 
+
 /*Add Review*/
 
 .shop-page .prod-tabs .add-review {
@@ -12235,6 +12358,7 @@ Accordian Box
 .shop-page .prod-tabs .add-review button {
     padding: 8px 35px;
 }
+
 
 /*** 
 
@@ -12571,6 +12695,7 @@ Accordian Box
     background-color: #081245;
 }
 
+
 /*** 
 
 ====================================================================
@@ -12705,6 +12830,7 @@ Accordian Box
 .shop-form textarea:focus {
     border-color: #081245;
 }
+
 
 /* Shop Order Box */
 
@@ -12841,6 +12967,7 @@ Accordian Box
     max-width: 100%;
     padding-left: 30px;
 }
+
 
 /*** 
 
@@ -13039,6 +13166,7 @@ Accordian Box
 .social-links-two .google-plus {
     background: #dd4b39;
 }
+
 
 /***
 
@@ -13912,6 +14040,7 @@ Accordian Box
 .rtl .main-menu .navigation>li .mega-menu-bar .column>ul>li>a {
     text-align: right;
 }
+
 
 /*** 
 
