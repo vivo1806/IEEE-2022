@@ -5292,7 +5292,7 @@ a.ui-button:active,
     position: relative;
     font-size: 68px;
     line-height: 1em;
-    color: #fe00c5;
+    color: #001efe;
     -webkit-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
@@ -9887,7 +9887,7 @@ Accordian Box
 }
 
 .gallery-section.style-two {
-    padding: 100px 0;
+    padding: 10px 10px 10px 10px;
 }
 
 .gallery-section.style-two .row {
