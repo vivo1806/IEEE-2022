@@ -3299,7 +3299,7 @@ Page Title
     background-position: center;
     background-size: cover;
     text-align: center;
-    padding: 160px 0;
+    padding: 250px 0;
     background: #F5F7FC;
 }
 
@@ -3327,9 +3327,9 @@ Page Title
     top: 0;
     height: 100%;
     width: 100%;
-    background: #000ec1;
-    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 100%, #000c47 100%);
-    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 100%, #000c47 100%);
+    /* background: #000ec1;
+    background: -o-radial-gradient(center, ellipse, #000ec1 0%, #000c47 60%, #000c47 60%); */
+    background: radial-gradient(ellipse at center, #000ec1 0%, #000c47 60%, #000c47 60%);
     content: "";
     opacity: .9;
 }

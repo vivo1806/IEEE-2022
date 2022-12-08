@@ -74,10 +74,10 @@
                                         <li class="dropdown current">
                                             <a>Events</a>
                                             <ul>
-                                                <li><a href="aarambh.html" class="current">Aarambh</a></li>
-                                                <li><a href="Samwaad.html">Samwad</a></li>
-                                                <li><a href="Srajan.html">Srajan</a></li>
-                                                <li><a href="Sceecs.html">Sceecs</a></li>
+                                                <li><a href="aarambh.html" class="current">AARAMBH</a></li>
+                                                <li><a href="Samwaad.html">SAMWAD</a></li>
+                                                <li><a href="Srajan.html">SRAJAN</a></li>
+                                                <li><a href="Sceecs.html">SCEECS</a></li>
                                             </ul>
                                         </li>
                                         <!-- <li><a href="gallery.html">Gallery</a></li> -->
@@ -277,8 +277,8 @@
         <!--Page Title-->
         <section class="page-title" style="background-image: url(images/resource/Aarambh-1.jpeg);">
             <div class="anim-icons full-width">
-                <span class="icon icon-bull-eye"></span>
-                <span class="icon icon-dotted-circle"></span>
+                <!-- <span class="icon icon-bull-eye"></span>
+                <span class="icon icon-dotted-circle"></span> -->
             </div>
             <div class="auto-container">
                 <div class="title-outer">
@@ -318,10 +318,31 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+                <style>
+                    .carousel-item {
+                        animation: moveSlideshow 15s linear infinite; 
+                    }
+                    /* .tech-slideshow .mover-2 {
+                        opacity: 0;
+                        transition: opacity 0.5s ease-out;
+                        background-position: 0 -200px;
+                        animation: moveSlideshow 15s linear infinite;
+                    }
+
+                    .tech-slideshow:hover .mover-2 {
+                        opacity: 1;
+                    } */
+
+                    @keyframes moveSlideshow {
+                        100% {
+                            transform: translateX(-50%);
+                        }
+                    }
+                </style>
                 <script>
-                    $('.carousel').carousel({
-                        interval: 3000
-                    })
+                    // $('.carousel').carousel({
+                    //     interval: 3000
+                    // })
                 </script>
 
                 <!-- <div class="content-box">
@@ -409,7 +430,7 @@
                     <!-- Gallery Block -->
                     <div class="gallery-block col-lg-6 col-md-6 col-sm-12">
                         <div class="image-box">
-                            <figure class="image"><img src="images/Gallery/sr11.jpg" alt=""></figure>
+                            <figure class="image"><img src="images/Aarambh/Aarambh-3.jpg" alt=""></figure>
 
                         </div>
                     </div>

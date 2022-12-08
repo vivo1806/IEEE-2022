@@ -74,10 +74,10 @@
                                         <li class="dropdown current">
                                             <a>Events</a>
                                             <ul>
-                                                <li><a href="aarambh.html">Aarambh</a></li>
-                                                <li><a href="Samwaad.html">Samwaad</a></li>
-                                                <li><a href="Srajan.html">Srajan</a></li>
-                                                <li><a href="Sceecs.html">Sceecs</a></li>
+                                                <li><a href="aarambh.html">AARAMBH</a></li>
+                                                <li><a href="Samwaad.html">SAMWAD</a></li>
+                                                <li><a href="Srajan.html">SRAJAN</a></li>
+                                                <li><a href="Sceecs.html">SCEECS</a></li>
                                             </ul>
                                         </li>
                                         <!-- <li><a href="gallery.html">Gallery</a></li> -->
@@ -309,7 +309,8 @@
                     <li><i class="flaticon-location"></i> 203 Madison Ave, NY, USA <strong>Address</strong></li>
                     <li><i class="flaticon-alarm-clock-1"></i>Monday - Friday 9am - 6pm <strong>Timeing</strong></li>
                     <li><i class="flaticon-email-1"></i> <a href="mailto:envato@gmail.com">envato@gmail.com</a>
-                        <strong>Mail to us</strong></li>
+                        <strong>Mail to us</strong>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -318,8 +319,8 @@
         <!--Page Title-->
         <section class="page-title" style="background-image: url(images/Gallery/sr12.jpg);">
             <div class="anim-icons full-width">
-                <span class="icon icon-bull-eye"></span>
-                <span class="icon icon-dotted-circle"></span>
+                <!-- <span class="icon icon-bull-eye"></span>
+                <span class="icon icon-dotted-circle"></span> -->
             </div>
             <div class="auto-container">
                 <div class="title-outer">
@@ -337,11 +338,11 @@
         <section class="schedule-detail">
             <div class="auto-container">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
+                    <!-- <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
+                    </ol> -->
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="images/sceecs/sceecs_1.jpg" class="d-block" alt="...">
@@ -359,19 +360,40 @@
                             <img src="images/sceecs/sceecs_5.jpg" class="d-block" alt="...">
                         </div> -->
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    </a>
+                    </a> -->
                 </div>
+                <style>
+                    .carousel-item {
+                        animation: moveSlideshow 15s linear infinite; 
+                    }
+                    /* .tech-slideshow .mover-2 {
+                        opacity: 0;
+                        transition: opacity 0.5s ease-out;
+                        background-position: 0 -200px;
+                        animation: moveSlideshow 15s linear infinite;
+                    }
+
+                    .tech-slideshow:hover .mover-2 {
+                        opacity: 1;
+                    } */
+
+                    @keyframes moveSlideshow {
+                        100% {
+                            transform: translateX(-50%);
+                        }
+                    }
+                </style>
                 <script>
-                    $('.carousel').carousel({
-                        interval: 3000
-                    })
+                    // $('.carousel').carousel({
+                    //     interval: 3000
+                    // })
                 </script>
 
 
