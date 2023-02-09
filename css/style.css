@@ -14075,3 +14075,58 @@ Accordian Box
 .box-layout .coming-soon {
     position: relative;
 }
+.modal-body {
+    color: #000;
+}
+
+.modal-body h1 {
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: uppercase;
+  }
+  .modal-body a.pre-order-btn {
+    color: #ffffff;
+    background-color: #49a3dc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+    margin: 2em auto;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Arimo', 'Roboto', sans-serif
+  }
+  
+  .modal-body a.pre-order-btn:hover {
+    background-color: #007bff;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  
+  .modal {
+      text-align: center;
+      margin-top: 5vh;
+    }
+    
+    @media screen and (min-width: 768px) { 
+      .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 95vh;
+      }
+    }
+    
+    .modal-dialog {
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+    }
+    
+  
+  .modal-body p {
+       margin-top: 1rem;
+       font-size: 14px;
+  }
