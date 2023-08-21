@@ -1,0 +1,132 @@
+  .tparrows {
+      display: none;
+  }
+
+  .color-trigger {
+      display: none;
+  }
+
+  body {
+      font-family: "lato", sans-serif;
+  }
+
+  .container {
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  h2 {
+      font-size: 26px;
+      margin: 20px 0;
+      text-align: center;
+  }
+
+  h2 small {
+      font-size: 0.5em;
+  }
+
+  .responsive-table li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+  }
+
+  .responsive-table .table-header {
+      background-color: #95a5a6;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+  }
+
+  .responsive-table .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .modal li{
+    padding:0px;
+    margin-bottom: 5px;
+    justify-content: initial;
+  }
+
+  .modal-lg{
+    max-width: 600px !important;
+  }
+
+.image-section .image{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.image-section .image .social-box {
+    position: absolute;
+    left: 0px;
+    bottom: -130px;
+    right: 0px;
+    z-index: 2;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: #001376;
+    transition: all 600ms ease;
+    -moz-transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+ .image-section:hover .image .social-box {
+    bottom: 30px;
+    transition-delay: 700ms;
+}
+
+ .image-section .image .social-box li {
+    position: relative;
+    margin: 0px 8px;
+    display: inline-block;
+}
+
+ .image-section .image .social-box li a {
+    position: relative;
+    font-size: 16px;
+    color: #ffffff;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+  @media all and (max-width: 767px) {
+      .responsive-table .table-header {
+          display: none;
+      }
+
+      .responsive-table li {
+          display: block;
+      }
+
+      .responsive-table .col {
+          flex-basis: 100%;
+      }
+
+      .responsive-table .col {
+          display: flex;
+          padding: 12px 0;
+      }
+
+      .responsive-table .col:before {
+          color: #6c7a89;
+          padding-right: 8px;
+          content: attr(data-label);
+          flex-basis: 50%;
+          text-align: center;
+      }
+  }
+
+
+

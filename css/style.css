@@ -14075,6 +14075,7 @@ Accordian Box
 .box-layout .coming-soon {
     position: relative;
 }
+/* }
 .modal-body {
     color: #000;
 }
@@ -14082,7 +14083,7 @@ Accordian Box
 .modal-body h1 {
     font-weight: 600;
     font-size: 1.7em;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
   }
   .modal-body a.pre-order-btn {
     color: #ffffff;
@@ -14123,10 +14124,10 @@ Accordian Box
       display: inline-block;
       text-align: left;
       vertical-align: middle;
-    }
+    } */
     
   
-  .modal-body p {
+  /* .modal-body p {
        margin-top: 1rem;
        font-size: 14px;
-  }
+  } */
