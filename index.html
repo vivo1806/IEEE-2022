@@ -13,6 +13,8 @@
         content="IEEE is the world's largest technical professional organization. It is dedicated to the advancement of technology for the betterment of humanity."
         property="og:description" />
     <meta content="IEEE MANIT Student Branch" property="twitter:title" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <meta
         content="IEEE is the world's largest technical professional organization. It is dedicated to the advancement of technology for the betterment of humanity."
         property="twitter:description" />
@@ -22,6 +24,7 @@
 
     <!-- Stylesheets -->
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/IEEE-MSB-Shortcut-01.png" type="image/x-icon" />
     <link href="plugins/revolution/css/settings.css" rel="stylesheet" type="text/css">
@@ -82,11 +85,162 @@
             padding-left: 10px;
         }
     }
+
+
+    /* Css for popUPs */
+    #toggle{
+        cursor: pointer;
+        left: 445px;
+    }
+    #toggle i{
+        z-index: 9999999;
+        position: absolute;
+        padding: 10px 8px;
+        width: 40px;
+        color: #000;
+        font-size: 30px;
+        right: 25px;
+    }
+    #popUp{
+        position: fixed;
+        top:50%;
+        color: white;
+        left:50% ;
+        transform: translate(-50%, -50%);
+        /* background: #000; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+        width: 30%;
+        height: fit-content;
+        font-family: 'Autour One', cursive;
+        opacity: 0;
+        z-index: 999;
+    }
+    #boxL{
+        padding: 4rem 2rem;
+        background: #3AAAFF;
+        color: white;
+        padding: 30px;
+        width: 95%;
+        height: 90%;
+        border-radius: 10px;
+    }
+    #disc{
+        font-size: 1rem;
+        color: white;
+        padding: 20px;
+        margin-top: 20px 0 20px 0;
+    }
+    .msg{
+        display: flex;
+        align-items: center;
+    }
+    #title{
+        text-align: center;
+        color:rgb(82, 4, 134);
+        /* border: 2px solid red; */
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    button{
+        border-radius: 5px;
+        background: white;
+        width: 10rem;
+        padding: 10px 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin: auto;
+        display: block;
+        /* border: 2px solid red; */
+    }
+    .msg img{
+        width: 100px;
+        padding-bottom: 1.2rem;
+    }
+
+    .overlay{
+        opacity: 0.5;
+    }
+    #btn{
+        display: flex;
+        gap: 20px;
+        /* margin-top: 50px; */
+        padding-top: 8px;
+        /* border: 2px solid red; */
+    }
+    @media only screen and (max-width: 1200px){
+        #disc{
+            font-size: 1rem ;
+        }
+        #popUp{
+            flex-wrap: wrap;
+            width: 60%;
+            height: fit-content;
+            overflow: hidden;
+        }
+        #boxL{
+            width: 95%;
+            height: 90%;
+        }
+        .msg img{
+        width: 100px;
+        padding-bottom: 1.2rem;
+
+    }
+    button{
+        width: 10rem;
+    }
+    }
+    @media only screen and (max-width: 600px){
+        .msg img{
+        width: 100px;
+        padding-bottom: 1.2rem;
+
+    }
+    .msg{
+        padding: 0;
+    }
+        #popUp{
+            /* flex-wrap: wrap; */
+            width: 90%;
+            height: fit-content;
+            overflow: hidden;
+            border-radius: 8px;
+            font-family: 'Anton', sans-serif;
+        }
+        .msg{
+            font-size: 1.2rem;
+            padding: 10px;
+        }
+        #boxL{
+            width: 95%;
+            height: 90%;
+            border-radius: 8px;
+        }
+        button{
+            font-size: 1em;
+            width: 9rem;
+        }
+        #disc{
+            font-size: 1rem ;
+        }
+
+    }
+        @media only screen and (max-width: 400px){
+            #boxL{
+                height:75%;
+                width: 98%;
+            }
+            button{
+                width: 8rem;
+            }
+        }
 </style>
 
 <body>
     <div class="page-wrapper">
-        <header class="main-header header-style-two">
+        <header class=" main-header header-style-two">
             <!-- Header Lower -->
             <div class="header-lower">
                 <div class="auto-container">
@@ -463,6 +617,9 @@
                 </div>
             </div>
         </section>
+        
+
+
         <!-- End Main Slider-->
         <!-- About Section -->
         <section class="about-section">
@@ -1181,6 +1338,31 @@
 
     </div>
     <!-- End Page Wrapper -->
+
+    <!-- Pop UPs -->
+    <div id="popUp">
+        <span id="toggle">
+            <i class="ri-close-line"></i>
+        </span>
+        <div id="boxL">
+            <p class="msg"><img src="Artboard 1.png" alt=""></p>
+            <p id="title">Ideate:Breaking the barriers</p>
+            <p id="disc">Exciting times await! Don't miss out on our upcoming event. Secure your spot today by registering now. Join us for an unforgettable experience filled with knowledge, fun, and networking opportunities.</p>
+            <div id="btn">
+                <a href="https://ideate.ieeenitb.com/" target="_blank"><button>Visit Ideate</button></a>
+                <a href="https://ieeenitb.com/Samwaad.html" target="_blank"><button>Samwad'23</button></a>
+            </div>
+        </div>
+        <!-- <div id="boxR">
+            <p class="msg">Ideate:Breaking the barriers </p>
+            <p id="title1">Samwaad'23</p>
+            <p class="msg">Is Here</p>
+            <p id="disc1">Exciting times await! Don't miss out on our upcoming event. Secure your spot today by registering now. Join us for an unforgettable experience filled with knowledge, fun, and networking opportunities.</p>
+            <button>Register</button>
+        </div> -->
+    </div>
+    <!-- Pop UPs  End-->
+
     <!--Scroll to top-->
     <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
     <script src="js/jquery.js"></script>
