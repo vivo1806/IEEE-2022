@@ -113,9 +113,9 @@
         flex-direction: row;
         width: 30%;
         height: fit-content;
-        font-family: 'Autour One', cursive;
-        opacity: 0;
-        z-index: 999;
+        /* font-family: 'Autour One', cursive; */
+        display: none;
+        z-index: 1000;
     }
     #boxL{
         padding: 4rem 2rem;
@@ -159,9 +159,18 @@
         padding-bottom: 1.2rem;
     }
 
-    .overlay{
-        opacity: 0.5;
-    }
+    .overlay {
+        display: none;
+        /* opacity: 0; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 999; /* Ensure the overlay is above other content */
+        transition: opacity .3s;
+}
     #btn{
         display: flex;
         gap: 20px;
@@ -207,7 +216,7 @@
             height: fit-content;
             overflow: hidden;
             border-radius: 8px;
-            font-family: 'Anton', sans-serif;
+            /* font-family: 'Anton', sans-serif; */
         }
         .msg{
             font-size: 1.2rem;
@@ -1338,6 +1347,10 @@
 
     </div>
     <!-- End Page Wrapper -->
+
+    <!-- Overlay Page -->
+    <div class="overlay" id="overlay"></div>
+    <!-- Overlay End -->
 
     <!-- Pop UPs -->
     <div id="popUp">
