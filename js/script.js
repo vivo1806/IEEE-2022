@@ -449,55 +449,69 @@ setTimeout(function () { $('#myModal').modal('hide'); }, 10000);
 
 
 // POP ups JS
-gsap.to("#popUp",{
-    opacity:1,
-    delay:4,
-    duration:0.5,
-    ease:Power3,
-    yoyo:true,
-})
-gsap.to(".page-wrapper",{
-    opacity:0.5,
-    delay:4,
-    duration:0.5,
-    ease:Power3,
-    yoyo:true,
-})
+
 function popPage(){
 
     const body = document.body;
     const scrollPosition = window.scrollY;
     const bodyStyle = window.getComputedStyle(body);
     const originalOverflow = bodyStyle.overflow;
-    body.style.overflow = 'hidden';
 
     var page_wrapper = document.querySelector(".page-wrapper");
     var popUp = document.querySelector("#popUp");
     var cross = document.querySelector("#toggle");
+    var overlay = document.getElementById("overlay");
 
-    cross.addEventListener("click",()=>{
-        page_wrapper.classList.remove("overlay");
-        popUp.style.opacity = 0;
-        gsap.to(".page-wrapper",{
-            opacity:1,
-            // delay:3,
-            duration:0.5,
-            ease:Power3,
-            yoyo:true,
-        })
-        body.style.overflow = originalOverflow;
+    document.addEventListener("DOMContentLoaded",()=>{
+        if(!localStorage.getItem("#popUp")){
+            setTimeout(()=>{
+                // overlay.style.transition = "display 0.5s"
+                overlay.style.display = "block";
+                popUp.style.display = "flex";
+            },4000);
+            // gsap.to("#popUp",{
+            //     opacity:1,
+            //     delay:4,
+            //     duration:0.5,
+            //     ease:Power3,
+            //     yoyo:true,
+            // })
+            // gsap.to(".page-wrapper",{
+            //     opacity:0.5,
+            //     delay:4,
+            //     duration:0.5,
+            //     ease:Power3,
+            //     yoyo:true,
+            // })
+            localStorage.setItem("#popUp","true");
+            localStorage.setItem("#overlay","true");
+        }
     })
+    overlay.addEventListener('click',()=>{
+        overlay.style.display = "none";
+        popUp.style.display = "none";
+        // overlay.style.opacity = 0;
+        // gsap.to(popUp,{
+        //     opacity:0,
+        //     duration:0.5,
+        //     ease:Power3,
+        //     yoyo:true,
+        // })
+        body.style.overflow = originalOverflow;
+    });
+    cross.addEventListener("click",()=>{
+        overlay.style.display = "none";
+        popUp.style.display = "none";
+        // // page_wrapper.classList.remove("overlay");
+        // popUp.style.opacity = 0;
+        // gsap.to(popUp,{
+        //     opacity:0,
+        //     duration:0.5,
+        //     ease:Power3,
+        //     yoyo:true,
+        // })
+        body.style.overflow = originalOverflow;
+    });
 }
-
-// Disable scrolling when the popup appears
-
-
-// Show your popup message or modal window code here
-
-// Re-enable scrolling when the popup is closed
-
-
-
-
 
 popPage();
