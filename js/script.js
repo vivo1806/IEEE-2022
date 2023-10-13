@@ -463,7 +463,7 @@ function popPage(){
     var overlay = document.getElementById("overlay");
 
     document.addEventListener("DOMContentLoaded",()=>{
-        if(!localStorage.getItem("#popUp")){
+        if(!sessionStorage.getItem("#popUp")){
             setTimeout(()=>{
                 // overlay.style.transition = "display 0.5s"
                 overlay.style.display = "block";
@@ -483,8 +483,8 @@ function popPage(){
             //     ease:Power3,
             //     yoyo:true,
             // })
-            localStorage.setItem("#popUp","true");
-            localStorage.setItem("#overlay","true");
+            sessionStorage.setItem("#popUp","true");
+            sessionStorage.setItem("#overlay","true");
         }
     })
     overlay.addEventListener('click',()=>{
