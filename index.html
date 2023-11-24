@@ -127,20 +127,38 @@
         border-radius: 10px;
     }
     #disc{
-        font-size: 1rem;
+        font-size: 1.2rem;
         color: white;
         padding: 20px;
-        /* margin-top: 20px 0 20px 0; */
+        margin-top: 20px 0 20px 0;
+        text-align: center;
     }
-    .msg{
+    .imagebox{
         display: flex;
         align-items: center;
+        margin: 0.8rem 0;
+        /* width: 12rem; */
+        padding-bottom: 0;
+        /* border: 2px solid rebeccapurple; */
+        justify-content: center;
+    }
+    #mainWord{
+        color: rgb(247, 25, 25);
+        font-weight:600;
     }
     #title{
         text-align: center;
         color:rgb(82, 4, 134);
         /* border: 2px solid red; */
-        font-size: 1.75rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+    #mainHeading{
+        text-align: center;
+        color:rgb(82, 4, 134);
+        /* border: 2px solid red; */
+        font-size: 1.6rem;
+        text-transform: uppercase;
         font-weight: 700;
     }
     button{
@@ -154,9 +172,9 @@
         display: block;
         /* border: 2px solid red; */
     }
-    .msg img{
-        width: 100px;
-        padding-bottom: 1.2rem;
+    .imagebox img{
+        width: 130px;
+        /* padding-bottom: 1.2rem; */
     }
 
     .overlay {
@@ -192,7 +210,7 @@
             width: 95%;
             height: 90%;
         }
-        .msg img{
+        .imagebox img{
         width: 100px;
         padding-bottom: 1.2rem;
 
@@ -202,12 +220,12 @@
     }
     }
     @media only screen and (max-width: 600px){
-        .msg img{
+        .imagebox img{
         width: 100px;
         padding-bottom: 1.2rem;
 
     }
-    .msg{
+    .imagebox{
         padding: 0;
     }
         #popUp{
@@ -218,7 +236,7 @@
             border-radius: 7.9px;
             /* font-family: 'Anton', sans-serif; */
         }
-        .msg{
+        .imagebox{
             font-size: 1.2rem;
             padding: 10px;
         }
@@ -1358,18 +1376,19 @@
             <i class="ri-close-line"></i>
         </span>
         <div id="boxL">
-            <p class="msg"><img src="Artboard 1.png" alt=""></p>
-            <p id="title">Samwad'23 is Live!</p>
-            <p id="disc">Exciting times await! Don't miss out on our upcoming event. Secure your spot today by registering now. Join us for an unforgettable experience filled with knowledge, fun, and networking opportunities.</p>
+            <p id="title">International IEEE Students' Conference SCEECS'24</p>
+            <p class="imagebox"><img src="logo.png" alt=""></p>
+            <p id="mainHeading">Call For Papers</p>
+            <p id="disc">Visit SCEECS'24 site for submission.</p>
             <div id="btn">
-                <a href="https://ideate.ieeenitb.com/" target="_blank"><button>Visit Ideate</button></a>
-                <a href="Samwaad.html" target="_blank"><button>Samwad'23</button></a>
+                <!-- <a href="https://sceecs.ieeenitb.com/callforpaper.html" target="_blank"><button>Call For Papers</button></a> -->
+                <a href="https://sceecs.ieeenitb.com/" target="_blank"><button>Sceecs'24</button></a>
             </div>
         </div>
         <!-- <div id="boxR">
-            <p class="msg">Ideate:Breaking the barriers </p>
+            <p class="imagebox">Ideate:Breaking the barriers </p>
             <p id="title1">Samwaad'23</p>
-            <p class="msg">Is Here</p>
+            <p class="imagebox">Is Here</p>
             <p id="disc1">Exciting times await! Don't miss out on our upcoming event. Secure your spot today by registering now. Join us for an unforgettable experience filled with knowledge, fun, and networking opportunities.</p>
             <button>Register</button>
         </div> -->
